@@ -38,8 +38,8 @@ function displayTemperature(response) {
 }
 
 function search(city){
-let apiKey ="242f7248bb9dacft8c41db39bo7efe02";
-let apiUrl =`https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
+let apiKey ="89a9e2a51e094f98264a0f24cd6d562e";
+let apiUrl =`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 axios.get(apiUrl).then(displayTemperature);
 }
@@ -82,4 +82,4 @@ fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
-search("New York");
+search("London");
