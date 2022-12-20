@@ -33,14 +33,16 @@ li:first-letter {
 }
 .weather-app-wrapper {
     max-width: 600px;
-    margin: 30 auto;
+    margin: 50px auto;
+    display: block;
 }
 
 .weather-app {
+    display: block;
     max-width: 600px;
-    margin: 30px auto;
+    margin: 50px auto;
     padding: 20px;
-    border: 3px solid #a4c3e2;
+    border: 2px solid #a4c3e2;
     border-radius: 10px;
     background: linear-gradient(120deg, #ebd9fc 0%, #9acafa 100%);
 }
