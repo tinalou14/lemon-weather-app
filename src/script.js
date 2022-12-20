@@ -45,7 +45,7 @@ function displayForecast(response) {
                 <div class="weather-forecast-temperatures">
                  <span class="weather-forcast-temperatures-max">
                      ${Math.round(forecastDay.temp.max)}°
-                 </span>  
+                 </span>|
                  <span class="weather-forcast-temperatures-min">
                     ${Math.round(forecastDay.temp.min)}°
                   </span>
@@ -109,5 +109,6 @@ function handleSubmit(event){
 
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
+
 
 search("London");

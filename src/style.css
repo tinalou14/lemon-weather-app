@@ -1,15 +1,16 @@
 body{
-    font-family: arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: radial-gradient(circle at 10% 20%, rgba(216, 241, 230, 0.46) 0.1%, rgba(233, 226, 226, 0.28) 90.1%);
 }
 
 
 
 h1 {
-    color: #878787;
-    font-size: 24px;
+    color: #383791;
+    font-size: 36px;
     font-weight: 100;
     line-height: 28px;
-    margin-bottom: 0;
+    padding-bottom: 20px;
 }
 
 ul{
@@ -21,8 +22,8 @@ li{
     list-style: none;
     margin: 0;
     padding: 0;
-    color: rgb(135,135,135);
-    font-size: 16px;
+    color:#4e4cab;
+    font-size: 14px;
     font-weight: 100;
     line-height: 19px;
 }
@@ -39,8 +40,9 @@ li:first-letter {
     max-width: 600px;
     margin: 30px auto;
     padding: 20px;
-    border: 1px solid #dadde1;
-    border-radius: 5px;
+    border: 3px solid #a4c3e2;
+    border-radius: 10px;
+    background: linear-gradient(120deg, #ebd9fc 0%, #9acafa 100%);
 }
 
 .overview {
@@ -91,6 +93,16 @@ li:first-letter {
 }
 
 .weather-forecast-temperatures {
-    font-size: 13px;
+    font-size: 11px;
 
+}
+
+.time {
+    list-style: none;
+        margin: 0;
+        padding: 0;
+        color: rgb(120, 77, 129);
+        font-size: 12px;
+        font-weight: 100;
+        line-height: 19px;
 }
